@@ -1,0 +1,43 @@
+{
+  "name": "namaste-ritom",
+  "version": "1.0.0",
+  "description": "This is namaste-ritom by Arindam",
+  "dependencies": {
+    "camelize": "^1.0.1",
+    "css-color-keywords": "^1.0.0",
+    "css-to-react-native": "^3.2.0",
+    "csstype": "^3.1.3",
+    "nanoid": "^3.3.8",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.49",
+    "postcss-value-parser": "^4.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.4.0",
+    "react-router-dom": "^7.4.0",
+    "scheduler": "^0.25.0",
+    "shallowequal": "^1.1.0",
+    "source-map-js": "^1.2.1",
+    "styled-components": "^6.1.15",
+    "stylis": "^4.3.2",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-react-refresh-wrap": "^2.14.1",
+    "parcel": "^2.14.1"
+  },
+  "browserslist": [
+    "Last 2 versions"
+  ],
+  "scripts": {
+    "start": "npm i && parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html"
+  },
+  "keywords": [
+    "react",
+    "namaste-ritom"
+  ],
+  "author": "Arindam Chakraborty",
+  "license": "ISC"
+}
