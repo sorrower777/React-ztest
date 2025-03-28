@@ -1,6 +1,6 @@
 import { LOGO_URL } from "../utils/constants";
 import { useEffect, useState } from "react";
-import {Link} from "react-dom";
+import {Link} from "react-router";
 
 const Header = () =>{
     // let btnName = "Login";
@@ -22,7 +22,7 @@ const Header = () =>{
                     <li><Link to={"/"}>Home</Link></li>
                     <li><Link to={"/about"}>About Us</Link></li>
                     <li><Link to={"/contact"}>Contact Us</Link></li>
-                    <li>Restaurant Menu</li>
+                    <li><Link to={"/restaurants/:resId"}>Restaurant Menu</Link></li>
                     <li>Cart</li>
                     <button className="login" onClick={()=>{
                         setBtnNameReact("Logout");
